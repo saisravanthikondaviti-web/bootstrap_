@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kalakriti</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      background-color: #452829;
+    }
+
+    h1 {
+      color: rgb(247, 195, 24);
+      text-shadow: #452829;
+
+    }
+
+    h3 {
+      text-align: center;
+      color: rgb(228, 184, 39);
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: center;
+      color: white;
+      margin-bottom: 40px;
+    }
+
+    .hero-bg {
+      background-image: linear-gradient(rgba(92, 42, 42, 0.5),
+          rgba(92, 54, 54, 0.6)),
+        url("backg.jpg");
+
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      min-height: 600px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* 📱 Small devices (phones) */
+    @media (max-width: 768px) {
+      .hero-bg {
+        min-height: 420px;
+        background-position: top center;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+
+      .hero-bg h1 {
+        font-size: 1.8rem;
+      }
+
+      .hero-bg p {
+        font-size: 0.95rem;
+        text-align: center;
+      }
+    }
+
+    /* 📱 Extra small devices */
+    @media (max-width: 480px) {
+      .hero-bg {
+        min-height: 350px;
+      }
+
+      .hero-bg h1 {
+        font-size: 1.5rem;
+      }
+
+      .hero-bg p {
+        font-size: 0.9rem;
+      }
+    }
+
+    .carousel-img {
+      height: 400px;
+      width: 50%;
+    }
+
+    .card-img-top {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .carousel-wrapper {
+      max-width: 600px;
+    }
+
+    .carousel-wrapper img {
+      height: 500px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #452829">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="#" style="color: rgb(228, 184, 39); font-weight: 800">
+        <img src="logo.jpg" alt="Kalakriti Logo" width="40" height="40" class="me-2" />
+        Kalakriti
+      </a>
+      <button class="navbar-toggler bg-warning border-warning" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html" style="color: white">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" style="color: rgb(244, 242, 236)">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html" style="color: white">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" style="color: white">Contact</a>
+          </li>
+        </ul>
+
+        <a href="loginb.html" class="btn btn-outline-warning">Login</a>
+        <a href="signup.html" class="btn btn-outline-warning ms-2">Sign Up</a>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid hero-bg text-white p-5 rounded">
+    <div class="container">
+      <h1 class="mt-lg-5">Welcome to Kalakriti</h1>
+      <p class="lead" style="color: rgb(243, 238, 238); font-weight: bold;">
+        Kalakriti is a platform dedicated to showcasing and celebrating art in
+        all its forms. Explore our collection, learn about artists, and immerse
+        yourself in the world of creativity.
+        <br />
+        The history of painting reaches back in time to artifacts and artwork
+        created by pre-historic artists.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Indian_painting" class="btn btn-primary">
+        Explore Now
+      </a>
+    </div>
+  </div>
+
+
+  <h3>“Painting is poetry that is seen rather than felt.”</h3>
+  <p>- Leonardo da Vinci</p>
+
+  <hr style="color: rgb(228, 184, 39); width: 800px; margin-left: 150px;">
+
+  <div class="container my-5">
+    <div class="row align-items-center">
+
+      <!-- Left Side Image -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center">
+        <img src="abin.jpg" alt="Art Illustration" class="img-fluid rounded shadow" style="max-height: 400px;">
+      </div>
+
+      <!-- Right Side Content -->
+      <div class="col-md-6 text-light">
+        <h2 class="fw-bold mb-4" style="color: rgb(228, 184, 39);">About!!!</h2>
+        <p style="text-align: justify;">
+          Kalakriti is a creative platform dedicated to celebrating art in all its forms.
+          It serves as a space where artistic expression meets appreciation, offering visitors
+          the opportunity to explore diverse collections, discover talented artists, and engage
+          with creativity from across cultures and traditions.
+        </p>
+        <p style="text-align: justify;">
+          Art, especially painting, has been an integral part of human history—dating back to
+          prehistoric cave artworks and evolving through ancient civilizations, classical antiquity,
+          and modern movements.At Kalakriti, we honor this rich artistic heritage while supporting contemporary
+          creativity.
+          Our mission is to inspire, educate, and connect art lovers with the timeless beauty and
+          evolving stories of visual expression.
+        </p>
+      </div>
+    </div>
+
+    <hr style="color: rgb(228, 184, 39); width: 800px; margin-left: auto; margin-right: 0;">
+
+    <div class="container my-5">
+      <div class="row align-items-start">
+
+        <!-- LEFT SIDE: TEXT / SERVICES -->
+        <div class="col-md-6 text-light">
+          <h2 class="fw-bold mb-4" style="color: rgb(228, 184, 39);">Services!!!</h2>
+          <p style="text-align: justify;">
+            At Kalakriti, we offer a range of services to enrich your artistic journey:
+          </p>
+          <ul>
+            <li><strong>Art Exhibitions:</strong> Regularly curated exhibitions showcasing diverse artworks.</li>
+            <li><strong>Workshops & Classes:</strong> Hands-on sessions for all skill levels.</li>
+            <li><strong>Artist Collaborations:</strong> Opportunities for artists to collaborate.</li>
+            <li><strong>Art Sales & Commissions:</strong> Buy, sell, or commission unique art.</li>
+            <li><strong>Educational Resources:</strong> Articles, tutorials, and videos.</li>
+          </ul>
+          <p style="text-align: justify;">
+            Whether you're an artist or an art enthusiast, Kalakriti supports your creative passions.
+          </p>
+        </div>
+
+        <!-- RIGHT SIDE: IMAGE / WIDGET -->
+        <div class="col-md-6 text-center">
+          <img src="services.jpg" class="img-fluid rounded shadow" style="max-height: 400px; margin-top: 60px;"
+            alt="Services Image">
+        </div>
+
+        <a href="services.html" class="btn btn-outline-warning" style="width: 150px;">Explore Now</a>
+
+      </div>
+    </div>
+
+
+    <hr style="color: rgb(228, 184, 39); width: 800px;">
+    <hr style="color: rgb(228, 184, 39); width: 600px;">
+    <hr style="color: rgb(228, 184, 39); width: 400px;">
+    <hr style="color: rgb(228, 184, 39); width: 200px;">
+
+    <!-- Cards Section -->
+    <div class="container my-5">
+      <h2 class="text-center mb-4 fw-bold text-light ">Famous Indian Painters</h2>
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm bg-white">
+            <img src="rajaravi.jpg" class="card-img-top" alt="Raja Ravi Varma" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">Raja Ravi Varma</h5>
+              <p class="card-text small">
+                Known for blending Indian themes with European techniques,
+                famous for mythological paintings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="amrita.jpg" class="card-img-top" alt="Amrita Sher-Gil" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">Amrita Sher-Gil</h5>
+              <p class="card-text small">
+                A pioneer of modern Indian art, inspired by Indian village life
+                and women.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="hussain.jpg" class="card-img-top" alt="M. F. Husain" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">M. F. Husain</h5>
+              <p class="card-text small">
+                One of India’s most famous modern artists, known for bold colors
+                and cubist style.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="nandalal.jpg" class="card-img-top" alt="Nandalal Bose" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">Nandalal Bose</h5>
+              <p class="card-text small">
+                A key figure of the Bengal School of Art, deeply inspired by
+                Indian traditions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="jamini.jpeg" class="card-img-top" alt="Jamini Roy" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">Jamini Roy</h5>
+              <p class="card-text small">
+                Famous for reviving folk art traditions like Kalighat paintings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="abindranath.jpg" class="card-img-top" alt="Abanindranath Tagore" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">Abanindranath Tagore</h5>
+              <p class="card-text small">
+                Founder of the Bengal School of Art, known for spiritual and
+                nationalist themes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="tyeb.jpg" class="card-img-top" alt="Tyeb Mehta" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">Tyeb Mehta</h5>
+              <p class="card-text small">
+                A leading modern Indian painter known for minimalism and
+                powerful expressions.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="ganesh_pyne.jpg" class="card-img-top" alt="Ganesh Pyne" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">Ganesh Pyne</h5>
+              <p class="card-text small">
+                Renowned for dark, mystical paintings inspired by mythology and
+                history.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="akbar.jpg" class="card-img-top" alt="Akbar Padamsee" />
+            <div class="card-body text-center" style="background: rgb(211, 145, 22)">
+              <h5 class="card-title fw-semibold">Akbar Padamsee</h5>
+              <p class="card-text small">
+                A modernist painter famous for landscapes, abstract art, and
+                metaphysical themes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="#" class="btn btn-primary">Explore More</a>
+      </div>
+    </div>
+
+
+    <hr style="color: rgb(228, 184, 39); width: 200px; margin-left: auto; margin-right: 0;">
+    <hr style="color: rgb(228, 184, 39); width: 400px; margin-left: auto; margin-right: 0;">
+    <hr style="color: rgb(228, 184, 39); width: 600px; margin-left: auto; margin-right: 0;">
+    <hr style="color: rgb(228, 184, 39); width: 800px; margin-left: auto; margin-right: 0;">
+
+
+    <br>
+
+    <h2 class="text-center mb-4 fw-bold text-light ">Art Works!!!</h2>
+    <p> Each bringing unique styles to Indian art, from mythological epics and folk traditions to modern expressions of
+      identity and life. </p>
+
+    <div class="container my-5">
+      <div class="carousel-wrapper mx-auto">
+        <!-- Carousel -->
+        <div id="artCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="5"></button>
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="6"></button>
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="7"></button>
+            <button type="button" data-bs-target="#artCarousel" data-bs-slide-to="8"></button>
+          </div>
+
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="ravip.jpg" class="d-block w-100" alt="Raja Ravi Varma" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Raja Ravi Varma</h5>
+                <p>Blended Indian themes with European realism.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="amrithapainting.jpg" class="d-block w-100" alt="Amrita Sher-Gil" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Amrita Sher-Gil</h5>
+                <p>Pioneer of modern Indian art.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="mfhussai.jpg" class="d-block w-100" alt="M. F. Husain" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>M. F. Husain</h5>
+                <p>Known for bold colors and cubist style.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="nandalalbose.jpg" class="d-block w-100" alt="Nandalal Bose" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Nandalal Bose</h5>
+                <p>Prominent artist of the Bengal School.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="jamini_roy.jpg" class="d-block w-100" alt="Jamini Roy" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Jamini Roy</h5>
+                <p>Revived Indian folk art traditions.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="abindra.jpg" class="d-block w-100" alt="Abanindranath Tagore" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Abanindranath Tagore</h5>
+                <p>Founder of the Bengal School of Art.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="tyebji.jpg" class="d-block w-100" alt="Tyeb Mehta" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Tyeb Mehta</h5>
+                <p>Modernist painter with minimal expression.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="ganesh.jpg" class="d-block w-100" alt="Ganesh Pyne" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ganesh Pyne</h5>
+                <p>Mystical and mythological themes.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="akbarji.webp" class="d-block w-100" alt="Akbar Padamsee" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Akbar Padamsee</h5>
+                <p>Modern abstract and landscape artist.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#artCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#artCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5">
+      <div class="row align-items-center g-4">
+
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <div class="card shadow">
+            <div class="card-body" style="background: rgb(211, 145, 22); border: #452829;">
+              <h3 class="text-center mb-4" style="color: #452829;">Contact Us</h3>
+              <form>
+                <div class="mb-3">
+                  <label class="form-label">Name</label>
+                  <input type="text" class="form-control" placeholder="Enter your name" required>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label">Message</label>
+                  <textarea class="form-control" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+
+                <div class="d-grid">
+                  <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quote Section -->
+        <div class="col-md-6 text-center">
+          <h3>“Painting is just another way of keeping a diary.”</h3>
+          <p>- Sai Sravanthi Kondaviti</p>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="mt-5" style="background-color:#57595B; color:#fcfcfc;">
+      <div class="container py-4">
+        <div class="row">
+
+          <!-- About -->
+          <div class="col-md-4 mb-3 text-light">
+            <h5>About Us</h5>
+            <p style="text-align: justify; color: #e2ad1a;">
+              We believe painting is a powerful form of expression—
+              a visual diary that captures emotions and stories.
+            </p>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="col-md-4 mb-3" style="gap: 10px;">
+            <h5>Contact</h5>
+            <p style="text-align: justify;color: #e2ad1a;">Email: Kalakriti@gmail.com</p>
+            <p style="text-align: justify;color: #e2ad1a;">Phone: 8341804447</p>
+            <p style="text-align: justify;color: #e2ad1a;">Location: India</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4 mb-3">
+            <h5 style="color: #fcfcfc;">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none text-warning">Home</a></li>
+              <li><a href="#" class="text-decoration-none text-warning">Gallery</a></li>
+              <li><a href="#" class="text-decoration-none text-warning">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+        <div>
+          <hr style="border-color: #e2ad1a;">
+        </div>
+
+
+        <!-- Copyright -->
+        <div class="text-center">
+          <p class="mb-0" style="color: #fcfcfc;">
+            © 2025 Sai Sravanthi Kondaviti. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+</body>
+
+</html>
